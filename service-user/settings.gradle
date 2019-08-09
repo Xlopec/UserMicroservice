@@ -1,0 +1,5 @@
+rootProject.name = 'service-user'
+
+include ':domain-user'
+
+project(':domain-user').projectDir = file('../user')
